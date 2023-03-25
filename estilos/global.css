@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  font-weight: bold;
+  padding: 12px;
+
+  border-radius: 2px;
+}
+
+input {
+  padding: 10px;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+
+  border-radius: 2px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  background-color: white;
+  width: 100vw; /* view width */
+  height: 100vh; /* view height */
+
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.container-imagem {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../imagem.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.container-imagem h2 {
+  color: white;
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 60px;
+}

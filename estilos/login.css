@@ -1,0 +1,65 @@
+.button-primario {
+  background-color: #074d5a;
+  color: white;
+  transition: background-color 0.5s;
+}
+
+.button-primario:hover {
+  background-color: #153e46;
+}
+
+.button-primario:disabled {
+  cursor: unset;
+  background-color: #dcdce5;
+}
+
+.button-outline {
+  background-color: white;
+  border-width: 1px;
+  border-color: #074d5a;
+  border-style: solid;
+
+  margin-top: 8px;
+}
+
+.container-login {
+  flex: 1;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: "Nothing You Could Do", cursive;
+
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.container-form p {
+  margin-bottom: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  margin-bottom: 24px;
+}
+
+.rodape {
+  margin-bottom: 40px;
+  align-self: center;
+}
